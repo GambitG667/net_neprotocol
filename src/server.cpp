@@ -8,9 +8,6 @@
 #include "header.hpp"
 
 
-
-
-
 int main(){
     std::cout << "<-----hello----->" << std::endl;
     
@@ -68,8 +65,6 @@ int main(){
     }
 
     
-
-    // 7. Закрытие сокетов
     close(new_socket);
     close(server_fd);
     return 0;
